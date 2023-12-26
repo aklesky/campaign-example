@@ -1,0 +1,7 @@
+{
+    "extends": "@aklesky/ts-config/node/18/vite.config.json",
+    "compilerOptions": {
+        "outDir": "dist"
+    },
+    "include": ["vite.config.ts", "tailwind.config.ts"]
+}

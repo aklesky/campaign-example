@@ -1,0 +1,34 @@
+{
+  "name": "campaign-manager-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "prettier": "@aklesky/prettier-config",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "jest",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview --outDir ../dist"
+  },
+  "devDependencies": {
+    "@aklesky/eslint-config": "0.7.14",
+    "@aklesky/jest-config": "0.7.14",
+    "@aklesky/postcss-config": "0.7.14",
+    "@aklesky/prettier-config": "0.7.14",
+    "@aklesky/tailwind-config": "0.7.14",
+    "@aklesky/ts-config": "0.7.14",
+    "@aklesky/vite-config": "0.7.14",
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@aklesky/react-presets": "0.7.14",
+    "flowbite": "2.2.1",
+    "flowbite-datepicker": "1.2.6",
+    "flowbite-react": "0.7.2",
+    "react-icons": "4.12.0"
+  }
+}

@@ -1,0 +1,9 @@
+.campaigns {
+  &__paginate {
+    & ul {
+      & > li:not(:first-child):not(:last-child) {
+        @apply hidden md:inline-block;
+      }
+    }
+  }
+}

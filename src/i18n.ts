@@ -1,0 +1,16 @@
+export const labels = {
+    search: 'Search',
+    name: 'Name',
+    budget: 'Budget',
+    status: 'Status',
+    startDate: 'By Start Date',
+    endDate: 'By End Date',
+    active: 'Active',
+    inactive: 'Inactive',
+    close: 'Close',
+    total: 'Total records: ',
+    totalPages: 'Total pages: ',
+    filterBy: 'Filter By:',
+    filteredBy: 'Filtered By:',
+    searchPlaceholder: 'By name',
+}
